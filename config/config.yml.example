@@ -1,0 +1,5 @@
+port: 1337 # The port that the server will listen to.
+incomingMessageRoute: '/message' # The endpoint to send an alert to the adapter
+outcomingMessageURI: 'PUT YOUR SLACK WEBHOOK URI HERE' # The URI of the slack webhook
+requestTimeout: 2000 # The timeout in ms for request to the slack webhook
+slackUsername: 'NewRelic' # The username displayed on slack.

@@ -1,0 +1,24 @@
+{
+    "name": "newrelic-slack-adapter",
+    "version": "1.0.0",
+    "description": "New Relic to Slack adapter to integrate New Relic alerts into a Slack channel",
+    "main": "server.js",
+    "scripts": {
+        "start": "node ./server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "NewRelic",
+        "Slack",
+        "Adapter",
+        "Alerts"
+    ],
+    "author": "Jordan Abderrachid <jabderrachid@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "body-parser": "^1.12.3",
+        "express": "^4.12.3",
+        "read-yaml": "^1.0.0",
+        "request": "^2.55.0"
+    }
+}
